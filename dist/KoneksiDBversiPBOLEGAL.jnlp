@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="KoneksiDBversiPBOLEGAL.jnlp">
+  <information>
+    <title>KoneksiDBversiPBOLEGAL</title>
+    <vendor>DELL</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  <shortcut><desktop/></shortcut>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="KoneksiDBversiPBOLEGAL.jar" size="175785" download="eager" />
+    <jar href="lib\jcalendar-1.4.jar" size="165052" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.23-bin.jar" size="834126" download="eager" />
+    <jar href="lib\sqlite-jdbc-3.27.2.1.jar" size="6012107" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="KoneksiDBversiPBOLEGAL" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="koneksidbversipbolegal.apk"  name="KoneksiDBversiPBOLEGAL" />
+  <update check="always"/>
+</jnlp>
